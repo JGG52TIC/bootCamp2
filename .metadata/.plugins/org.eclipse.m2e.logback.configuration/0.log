@@ -1,0 +1,1032 @@
+2021-09-21 09:38:03,555 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-21 09:38:26,108 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-09-21 09:38:28,387 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.samples:spring-petclinic:2.5.0-SNAPSHOT @ C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\pom.xml.
+2021-09-21 09:38:30,041 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 09:38:30,042 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 09:38:30,043 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 09:38:30,043 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 09:38:30,043 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 09:38:30,043 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 09:38:30,043 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 09:38:30,044 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 09:38:30,059 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 09:38:30,059 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 09:38:30,229 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - dotGitDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\.git
+2021-09-21 09:38:30,596 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.name with value JGG52TIC
+2021-09-21 09:38:30,600 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.email with value jgg52tic@gmail.com
+2021-09-21 09:38:30,671 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.branch with value main
+2021-09-21 09:38:30,674 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - --always = true
+2021-09-21 09:38:30,674 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - --dirty = -dirty
+2021-09-21 09:38:30,674 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - --abbrev = 7
+2021-09-21 09:38:30,687 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Tag refs [[Ref[refs/tags/1.5.x=c36452a2c34443ae26b4ecbba4f149906af14717(-1)]]]
+2021-09-21 09:38:30,723 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created map: [{}]
+2021-09-21 09:38:30,725 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - evalCommit is [25ba1621a9d7440df013f7737ce070f44014ecb1]
+2021-09-21 09:38:30,957 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe with value 25ba162
+2021-09-21 09:38:30,958 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe-short with value 25ba162
+2021-09-21 09:38:30,959 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id with value 25ba1621a9d7440df013f7737ce070f44014ecb1
+2021-09-21 09:38:30,961 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.abbrev with value 25ba162
+2021-09-21 09:38:31,017 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.dirty with value false
+2021-09-21 09:38:31,019 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.name with value Dave Syer
+2021-09-21 09:38:31,020 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.email with value dsyer@vmware.com
+2021-09-21 09:38:31,020 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.full with value Add delimiter to list of pets
+2021-09-21 09:38:31,021 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.short with value Add delimiter to list of pets
+2021-09-21 09:38:31,022 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.time with value 2021-09-14T18:33:24+0200
+2021-09-21 09:38:31,023 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.author.time with value 2021-09-14T18:33:24+0200
+2021-09-21 09:38:31,024 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.committer.time with value 2021-09-14T18:33:24+0200
+2021-09-21 09:38:31,025 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.remote.origin.url with value https://github.com/JGG52TIC/spring-petclinic.git
+2021-09-21 09:38:31,048 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tags with value 
+2021-09-21 09:38:31,062 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - evalCommit is [25ba1621a9d7440df013f7737ce070f44014ecb1]
+2021-09-21 09:38:31,066 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Tag refs [[Ref[refs/tags/1.5.x=c36452a2c34443ae26b4ecbba4f149906af14717(-1)]]]
+2021-09-21 09:38:31,069 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created map: [{}]
+2021-09-21 09:38:31,083 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.name with value 
+2021-09-21 09:38:31,093 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - evalCommit is [25ba1621a9d7440df013f7737ce070f44014ecb1]
+2021-09-21 09:38:31,096 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Tag refs [[Ref[refs/tags/1.5.x=c36452a2c34443ae26b4ecbba4f149906af14717(-1)]]]
+2021-09-21 09:38:31,098 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created map: [{}]
+2021-09-21 09:38:31,110 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.commit.count with value 
+2021-09-21 09:38:31,124 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.total.commit.count with value 743
+2021-09-21 09:38:31,455 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - The following groups will be processed: [petclinic]
+2021-09-21 09:38:31,455 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - folder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 09:38:31,460 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - processing group: petclinic.css
+2021-09-21 09:38:32,023 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.ahead with value 0
+2021-09-21 09:38:32,023 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.behind with value 0
+2021-09-21 09:38:32,033 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.time with value 2021-09-21T09:38:32+0200
+2021-09-21 09:38:32,034 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.version with value 2.5.0-SNAPSHOT
+2021-09-21 09:38:32,039 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.host with value SG
+2021-09-21 09:38:32,041 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.tags in results
+2021-09-21 09:38:32,041 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.version in results
+2021-09-21 09:38:32,041 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.branch in results
+2021-09-21 09:38:32,041 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.host in results
+2021-09-21 09:38:32,041 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.id in results
+2021-09-21 09:38:32,041 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.user.email in results
+2021-09-21 09:38:32,041 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.local.branch.behind in results
+2021-09-21 09:38:32,041 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.author.time in results
+2021-09-21 09:38:32,041 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.user.name in results
+2021-09-21 09:38:32,041 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.dirty in results
+2021-09-21 09:38:32,042 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.closest.tag.commit.count in results
+2021-09-21 09:38:32,042 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.user.name in results
+2021-09-21 09:38:32,042 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.id.abbrev in results
+2021-09-21 09:38:32,042 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.id.describe-short in results
+2021-09-21 09:38:32,042 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.total.commit.count in results
+2021-09-21 09:38:32,042 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.id.describe in results
+2021-09-21 09:38:32,042 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.user.email in results
+2021-09-21 09:38:32,042 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.message.short in results
+2021-09-21 09:38:32,042 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.committer.time in results
+2021-09-21 09:38:32,042 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.closest.tag.name in results
+2021-09-21 09:38:32,042 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.local.branch.ahead in results
+2021-09-21 09:38:32,042 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.time in results
+2021-09-21 09:38:32,042 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.time in results
+2021-09-21 09:38:32,042 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.message.full in results
+2021-09-21 09:38:32,043 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.remote.origin.url in results
+2021-09-21 09:38:32,052 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Writing properties file to [C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\git.properties] (for module petclinic)...
+2021-09-21 09:38:32,057 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 09:38:32,058 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 09:38:32,058 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 09:38:32,058 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 09:38:32,058 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 09:38:32,058 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 09:38:32,058 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 09:38:32,058 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 09:38:32,066 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 09:38:32,066 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 09:38:32,795 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The following groups will be processed: [petclinic]
+2021-09-21 09:38:32,796 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - folder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 09:38:32,796 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - processing group: petclinic.css
+2021-09-21 09:38:36,214 [Worker-5: Update Maven projects configuration] WARN  r.i.w.e.p.css.Less4jProcessor - Less warnings are:
+2021-09-21 09:38:36,214 [Worker-17: Building] WARN  r.i.w.e.p.css.Less4jProcessor - Less warnings are:
+2021-09-21 09:38:36,216 [Worker-5: Update Maven projects configuration] WARN  r.i.w.e.p.css.Less4jProcessor - 10:1 Cannot link source map. Css result location is not know and could not be deduced from input less source..
+2021-09-21 09:38:36,216 [Worker-17: Building] WARN  r.i.w.e.p.css.Less4jProcessor - 10:1 Cannot link source map. Css result location is not know and could not be deduced from input less source..
+2021-09-21 09:38:36,240 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - file size: petclinic.css -> 152399 bytes
+2021-09-21 09:38:36,240 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - file size: petclinic.css -> 152399 bytes
+2021-09-21 09:38:36,240 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css\petclinic.css (152399 bytes)
+2021-09-21 09:38:36,240 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css\petclinic.css (152399 bytes)
+2021-09-21 09:38:36,240 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - folder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 09:38:36,240 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - folder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 09:38:36,241 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - processing group: petclinic.js
+2021-09-21 09:38:36,241 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - processing group: petclinic.js
+2021-09-21 09:38:36,413 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 09:38:36,413 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 09:38:36,418 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 09:38:36,441 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 09:38:36,854 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 09:38:36,854 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 09:38:36,854 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 09:38:37,157 [Worker-5: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-petclinic/src/main/java
+2021-09-21 09:38:37,158 [Worker-5: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-petclinic/src/main/resources
+2021-09-21 09:38:37,170 [Worker-5: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-petclinic/src/main/resources
+2021-09-21 09:38:37,188 [Worker-5: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-petclinic/src/test/java
+2021-09-21 09:38:40,669 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 14 sec
+2021-09-21 09:38:40,809 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - dotGitDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\.git
+2021-09-21 09:38:40,813 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.name with value JGG52TIC
+2021-09-21 09:38:40,814 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.email with value jgg52tic@gmail.com
+2021-09-21 09:38:40,823 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.branch with value main
+2021-09-21 09:38:40,823 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - --always = true
+2021-09-21 09:38:40,823 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - --dirty = -dirty
+2021-09-21 09:38:40,823 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - --abbrev = 7
+2021-09-21 09:38:40,824 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Tag refs [[Ref[refs/tags/1.5.x=c36452a2c34443ae26b4ecbba4f149906af14717(-1)]]]
+2021-09-21 09:38:40,827 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created map: [{}]
+2021-09-21 09:38:40,828 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - evalCommit is [25ba1621a9d7440df013f7737ce070f44014ecb1]
+2021-09-21 09:38:40,924 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe with value 25ba162
+2021-09-21 09:38:40,924 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe-short with value 25ba162
+2021-09-21 09:38:40,924 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id with value 25ba1621a9d7440df013f7737ce070f44014ecb1
+2021-09-21 09:38:40,925 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.abbrev with value 25ba162
+2021-09-21 09:38:40,986 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.dirty with value false
+2021-09-21 09:38:40,987 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.name with value Dave Syer
+2021-09-21 09:38:40,987 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.email with value dsyer@vmware.com
+2021-09-21 09:38:40,987 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.full with value Add delimiter to list of pets
+2021-09-21 09:38:40,987 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.short with value Add delimiter to list of pets
+2021-09-21 09:38:40,987 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.time with value 2021-09-14T18:33:24+0200
+2021-09-21 09:38:40,988 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.author.time with value 2021-09-14T18:33:24+0200
+2021-09-21 09:38:40,988 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.committer.time with value 2021-09-14T18:33:24+0200
+2021-09-21 09:38:40,988 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.remote.origin.url with value https://github.com/JGG52TIC/spring-petclinic.git
+2021-09-21 09:38:41,005 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tags with value 
+2021-09-21 09:38:41,016 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - evalCommit is [25ba1621a9d7440df013f7737ce070f44014ecb1]
+2021-09-21 09:38:41,017 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Tag refs [[Ref[refs/tags/1.5.x=c36452a2c34443ae26b4ecbba4f149906af14717(-1)]]]
+2021-09-21 09:38:41,019 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created map: [{}]
+2021-09-21 09:38:41,031 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.name with value 
+2021-09-21 09:38:41,041 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - evalCommit is [25ba1621a9d7440df013f7737ce070f44014ecb1]
+2021-09-21 09:38:41,043 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Tag refs [[Ref[refs/tags/1.5.x=c36452a2c34443ae26b4ecbba4f149906af14717(-1)]]]
+2021-09-21 09:38:41,045 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created map: [{}]
+2021-09-21 09:38:41,057 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.commit.count with value 
+2021-09-21 09:38:41,066 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.total.commit.count with value 743
+2021-09-21 09:38:41,661 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.ahead with value 0
+2021-09-21 09:38:41,661 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.behind with value 0
+2021-09-21 09:38:41,666 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.time with value 2021-09-21T09:38:41+0200
+2021-09-21 09:38:41,666 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.version with value 2.5.0-SNAPSHOT
+2021-09-21 09:38:41,667 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.host with value SG
+2021-09-21 09:38:41,667 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.tags in results
+2021-09-21 09:38:41,667 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.version in results
+2021-09-21 09:38:41,667 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.branch in results
+2021-09-21 09:38:41,667 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.host in results
+2021-09-21 09:38:41,667 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.id in results
+2021-09-21 09:38:41,668 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.user.email in results
+2021-09-21 09:38:41,668 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.local.branch.behind in results
+2021-09-21 09:38:41,668 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.author.time in results
+2021-09-21 09:38:41,668 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.user.name in results
+2021-09-21 09:38:41,668 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.dirty in results
+2021-09-21 09:38:41,668 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.closest.tag.commit.count in results
+2021-09-21 09:38:41,668 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.user.name in results
+2021-09-21 09:38:41,668 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.id.abbrev in results
+2021-09-21 09:38:41,668 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.id.describe-short in results
+2021-09-21 09:38:41,668 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.total.commit.count in results
+2021-09-21 09:38:41,668 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.id.describe in results
+2021-09-21 09:38:41,669 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.user.email in results
+2021-09-21 09:38:41,669 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.message.short in results
+2021-09-21 09:38:41,669 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.committer.time in results
+2021-09-21 09:38:41,669 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.closest.tag.name in results
+2021-09-21 09:38:41,669 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.local.branch.ahead in results
+2021-09-21 09:38:41,669 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.time in results
+2021-09-21 09:38:41,669 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.time in results
+2021-09-21 09:38:41,669 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.message.full in results
+2021-09-21 09:38:41,669 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.remote.origin.url in results
+2021-09-21 09:38:41,670 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Writing properties file to [C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\git.properties] (for module petclinic)...
+2021-09-21 09:38:41,674 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 09:38:41,674 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 09:38:41,674 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 09:38:41,674 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 09:38:41,674 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 09:38:41,674 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 09:38:41,674 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 09:38:41,674 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 09:38:41,681 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 09:38:41,681 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 09:38:42,479 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 09:38:42,484 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 09:38:42,484 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 09:38:42,495 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 09:38:42,507 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 09:38:42,683 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 09:38:42,683 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 09:38:42,683 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 09:38:42,713 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-09-21 09:38:43,464 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.samples:spring-petclinic:2.5.0-SNAPSHOT @ C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\pom.xml.
+2021-09-21 09:38:44,537 [DefaultMetadataResolver-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/me/n4u/sass/sass-gems/maven-metadata.xml
+2021-09-21 09:38:44,600 [DefaultMetadataResolver-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/me/n4u/sass/sass-gems/maven-metadata.xml
+2021-09-21 09:38:44,925 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/me/n4u/sass/sass-gems/maven-metadata.xml
+2021-09-21 09:38:44,943 [DefaultMetadataResolver-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/me/n4u/sass/sass-gems/maven-metadata.xml
+2021-09-21 09:38:45,240 [DefaultMetadataResolver-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/me/n4u/sass/sass-gems/maven-metadata.xml
+2021-09-21 09:38:45,622 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 09:38:45,622 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 09:38:45,622 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 09:38:45,622 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 09:38:45,623 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 09:38:45,623 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 09:38:45,623 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 09:38:45,623 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 09:38:45,634 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 09:38:45,634 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 09:38:46,365 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 09:38:46,494 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-petclinic/src/main/java
+2021-09-21 09:38:46,495 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-petclinic/src/main/resources
+2021-09-21 09:38:46,495 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-petclinic/src/main/resources
+2021-09-21 09:38:46,497 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-petclinic/src/test/java
+2021-09-21 09:38:46,968 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2021-09-21 09:38:48,178 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - dotGitDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\.git
+2021-09-21 09:38:48,504 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.name with value JGG52TIC
+2021-09-21 09:38:48,505 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.email with value jgg52tic@gmail.com
+2021-09-21 09:38:48,577 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.branch with value main
+2021-09-21 09:38:48,580 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - --always = true
+2021-09-21 09:38:48,580 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - --dirty = -dirty
+2021-09-21 09:38:48,580 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - --abbrev = 7
+2021-09-21 09:38:48,599 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Tag refs [[Ref[refs/tags/1.5.x=c36452a2c34443ae26b4ecbba4f149906af14717(-1)]]]
+2021-09-21 09:38:48,649 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created map: [{}]
+2021-09-21 09:38:48,650 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - evalCommit is [25ba1621a9d7440df013f7737ce070f44014ecb1]
+2021-09-21 09:38:48,867 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe with value 25ba162
+2021-09-21 09:38:48,867 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe-short with value 25ba162
+2021-09-21 09:38:48,868 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id with value 25ba1621a9d7440df013f7737ce070f44014ecb1
+2021-09-21 09:38:48,870 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.abbrev with value 25ba162
+2021-09-21 09:38:48,929 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.dirty with value false
+2021-09-21 09:38:48,930 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.name with value Dave Syer
+2021-09-21 09:38:48,930 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.email with value dsyer@vmware.com
+2021-09-21 09:38:48,931 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.full with value Add delimiter to list of pets
+2021-09-21 09:38:48,932 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.short with value Add delimiter to list of pets
+2021-09-21 09:38:48,932 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.time with value 2021-09-14T18:33:24+0200
+2021-09-21 09:38:48,933 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.author.time with value 2021-09-14T18:33:24+0200
+2021-09-21 09:38:48,933 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.committer.time with value 2021-09-14T18:33:24+0200
+2021-09-21 09:38:48,934 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.remote.origin.url with value https://github.com/JGG52TIC/spring-petclinic.git
+2021-09-21 09:38:48,949 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tags with value 
+2021-09-21 09:38:48,960 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - evalCommit is [25ba1621a9d7440df013f7737ce070f44014ecb1]
+2021-09-21 09:38:48,961 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Tag refs [[Ref[refs/tags/1.5.x=c36452a2c34443ae26b4ecbba4f149906af14717(-1)]]]
+2021-09-21 09:38:48,963 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created map: [{}]
+2021-09-21 09:38:48,976 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.name with value 
+2021-09-21 09:38:48,985 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - evalCommit is [25ba1621a9d7440df013f7737ce070f44014ecb1]
+2021-09-21 09:38:48,986 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Tag refs [[Ref[refs/tags/1.5.x=c36452a2c34443ae26b4ecbba4f149906af14717(-1)]]]
+2021-09-21 09:38:48,988 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created map: [{}]
+2021-09-21 09:38:48,997 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.commit.count with value 
+2021-09-21 09:38:49,009 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.total.commit.count with value 743
+2021-09-21 09:38:49,831 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.ahead with value 0
+2021-09-21 09:38:49,832 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.behind with value 0
+2021-09-21 09:38:49,837 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.time with value 2021-09-21T09:38:49+0200
+2021-09-21 09:38:49,837 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.version with value 2.5.0-SNAPSHOT
+2021-09-21 09:38:49,838 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.host with value SG
+2021-09-21 09:38:49,840 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.tags in results
+2021-09-21 09:38:49,840 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.version in results
+2021-09-21 09:38:49,840 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.branch in results
+2021-09-21 09:38:49,840 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.host in results
+2021-09-21 09:38:49,840 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.id in results
+2021-09-21 09:38:49,840 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.user.email in results
+2021-09-21 09:38:49,840 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.local.branch.behind in results
+2021-09-21 09:38:49,840 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.author.time in results
+2021-09-21 09:38:49,840 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.user.name in results
+2021-09-21 09:38:49,840 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.dirty in results
+2021-09-21 09:38:49,840 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.closest.tag.commit.count in results
+2021-09-21 09:38:49,840 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.user.name in results
+2021-09-21 09:38:49,841 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.id.abbrev in results
+2021-09-21 09:38:49,841 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.id.describe-short in results
+2021-09-21 09:38:49,841 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.total.commit.count in results
+2021-09-21 09:38:49,841 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.id.describe in results
+2021-09-21 09:38:49,841 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.user.email in results
+2021-09-21 09:38:49,841 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.message.short in results
+2021-09-21 09:38:49,841 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.committer.time in results
+2021-09-21 09:38:49,841 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.closest.tag.name in results
+2021-09-21 09:38:49,841 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.local.branch.ahead in results
+2021-09-21 09:38:49,841 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.time in results
+2021-09-21 09:38:49,841 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.time in results
+2021-09-21 09:38:49,841 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.message.full in results
+2021-09-21 09:38:49,841 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.remote.origin.url in results
+2021-09-21 09:38:49,845 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Writing properties file to [C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\git.properties] (for module petclinic)...
+2021-09-21 09:38:49,849 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 09:38:49,849 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 09:38:49,849 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 09:38:49,849 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 09:38:49,849 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 09:38:49,849 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 09:38:49,849 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 09:38:49,849 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 09:38:49,855 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 09:38:49,855 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 09:38:50,325 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The following groups will be processed: [petclinic]
+2021-09-21 09:38:50,325 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - folder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 09:38:50,327 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - processing group: petclinic.css
+2021-09-21 09:38:53,476 [Worker-10: Building] WARN  r.i.w.e.p.css.Less4jProcessor - Less warnings are:
+2021-09-21 09:38:53,477 [Worker-10: Building] WARN  r.i.w.e.p.css.Less4jProcessor - 10:1 Cannot link source map. Css result location is not know and could not be deduced from input less source..
+2021-09-21 09:38:53,493 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - file size: petclinic.css -> 152399 bytes
+2021-09-21 09:38:53,494 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css\petclinic.css (152399 bytes)
+2021-09-21 09:38:53,494 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - folder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 09:38:53,494 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - processing group: petclinic.js
+2021-09-21 09:38:53,517 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 09:38:53,517 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 09:38:53,518 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 09:38:53,542 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 09:38:53,706 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 09:38:53,706 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 09:38:53,707 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 09:40:10,388 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-09-21 09:40:26,519 [Worker-3: Launching spring-petclinic] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic
+2021-09-21 09:40:26,520 [Worker-3: Launching spring-petclinic] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -e clean install
+2021-09-21 10:46:23,188 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - dotGitDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\.git
+2021-09-21 10:46:23,192 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.name with value JGG52TIC
+2021-09-21 10:46:23,192 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.email with value jgg52tic@gmail.com
+2021-09-21 10:46:23,200 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.branch with value main
+2021-09-21 10:46:23,200 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - --always = true
+2021-09-21 10:46:23,201 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - --dirty = -dirty
+2021-09-21 10:46:23,201 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - --abbrev = 7
+2021-09-21 10:46:23,203 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Tag refs [[Ref[refs/tags/1.5.x=c36452a2c34443ae26b4ecbba4f149906af14717(-1)]]]
+2021-09-21 10:46:23,205 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created map: [{}]
+2021-09-21 10:46:23,206 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - evalCommit is [25ba1621a9d7440df013f7737ce070f44014ecb1]
+2021-09-21 10:46:23,306 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe with value 25ba162
+2021-09-21 10:46:23,306 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe-short with value 25ba162
+2021-09-21 10:46:23,306 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id with value 25ba1621a9d7440df013f7737ce070f44014ecb1
+2021-09-21 10:46:23,309 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.abbrev with value 25ba162
+2021-09-21 10:46:23,389 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.dirty with value false
+2021-09-21 10:46:23,389 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.name with value Dave Syer
+2021-09-21 10:46:23,389 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.email with value dsyer@vmware.com
+2021-09-21 10:46:23,389 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.full with value Add delimiter to list of pets
+2021-09-21 10:46:23,389 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.short with value Add delimiter to list of pets
+2021-09-21 10:46:23,389 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.time with value 2021-09-14T18:33:24+0200
+2021-09-21 10:46:23,390 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.author.time with value 2021-09-14T18:33:24+0200
+2021-09-21 10:46:23,390 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.committer.time with value 2021-09-14T18:33:24+0200
+2021-09-21 10:46:23,391 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.remote.origin.url with value https://github.com/JGG52TIC/spring-petclinic.git
+2021-09-21 10:46:23,404 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tags with value 
+2021-09-21 10:46:23,415 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - evalCommit is [25ba1621a9d7440df013f7737ce070f44014ecb1]
+2021-09-21 10:46:23,418 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Tag refs [[Ref[refs/tags/1.5.x=c36452a2c34443ae26b4ecbba4f149906af14717(-1)]]]
+2021-09-21 10:46:23,422 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created map: [{}]
+2021-09-21 10:46:23,433 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.name with value 
+2021-09-21 10:46:23,446 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - evalCommit is [25ba1621a9d7440df013f7737ce070f44014ecb1]
+2021-09-21 10:46:23,448 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Tag refs [[Ref[refs/tags/1.5.x=c36452a2c34443ae26b4ecbba4f149906af14717(-1)]]]
+2021-09-21 10:46:23,450 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created map: [{}]
+2021-09-21 10:46:23,461 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.commit.count with value 
+2021-09-21 10:46:23,473 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.total.commit.count with value 743
+2021-09-21 10:46:24,041 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.ahead with value 0
+2021-09-21 10:46:24,041 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.behind with value 0
+2021-09-21 10:46:24,043 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.time with value 2021-09-21T10:46:24+0200
+2021-09-21 10:46:24,044 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.version with value 2.5.0-SNAPSHOT
+2021-09-21 10:46:24,045 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.host with value SG
+2021-09-21 10:46:24,045 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.tags in results
+2021-09-21 10:46:24,045 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.version in results
+2021-09-21 10:46:24,045 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.branch in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.host in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.id in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.user.email in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.local.branch.behind in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.author.time in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.user.name in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.dirty in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.closest.tag.commit.count in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.user.name in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.id.abbrev in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.id.describe-short in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.total.commit.count in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.id.describe in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.user.email in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.message.short in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.committer.time in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.closest.tag.name in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.local.branch.ahead in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.time in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.time in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.message.full in results
+2021-09-21 10:46:24,046 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.remote.origin.url in results
+2021-09-21 10:46:24,048 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Writing properties file to [C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\git.properties] (for module petclinic)...
+2021-09-21 10:46:24,052 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 10:46:24,053 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 10:46:24,053 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 10:46:24,053 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 10:46:24,053 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 10:46:24,053 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 10:46:24,053 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 10:46:24,053 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 10:46:24,061 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 10:46:24,061 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 10:46:25,015 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 10:46:25,023 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 10:46:25,023 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 10:46:25,037 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 10:46:25,056 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 10:46:25,270 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 10:46:25,271 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 10:46:25,271 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 10:46:26,385 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 10:46:26,386 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 10:46:26,386 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 10:46:26,386 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 10:46:26,386 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 10:46:26,386 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 10:46:26,386 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 10:46:26,386 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 10:46:26,395 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 10:46:26,395 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 10:46:27,056 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 10:46:27,060 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 10:46:27,060 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 10:46:27,060 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-21 10:46:27,060 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-21 10:46:27,062 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 10:46:27,062 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 10:46:27,062 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 10:55:59,029 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 10:55:59,030 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 10:55:59,030 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 10:55:59,030 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 10:55:59,030 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 10:55:59,030 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 10:55:59,030 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 10:55:59,030 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 10:55:59,037 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 10:55:59,037 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 10:55:59,797 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 10:55:59,802 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 10:55:59,802 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 10:55:59,812 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 10:55:59,843 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 10:55:59,864 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 10:55:59,864 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 10:55:59,864 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 11:14:05,740 [Worker-34: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 11:14:05,741 [Worker-34: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 11:14:05,741 [Worker-34: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 11:14:05,741 [Worker-34: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 11:14:05,741 [Worker-34: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 11:14:05,741 [Worker-34: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 11:14:05,741 [Worker-34: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 11:14:05,741 [Worker-34: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:14:05,748 [Worker-34: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:14:05,748 [Worker-34: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 11:14:06,203 [Worker-34: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 11:14:06,208 [Worker-34: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:14:06,208 [Worker-34: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:14:06,208 [Worker-34: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-21 11:14:06,242 [Worker-34: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-21 11:14:06,246 [Worker-34: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:14:06,246 [Worker-34: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:14:06,246 [Worker-34: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 11:14:35,432 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 11:14:35,432 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 11:14:35,432 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 11:14:35,432 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 11:14:35,432 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 11:14:35,433 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 11:14:35,433 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 11:14:35,433 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:14:35,438 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:14:35,438 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 11:14:36,004 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 11:14:36,008 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:14:36,008 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:14:36,008 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-21 11:14:36,031 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-21 11:14:36,037 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:14:36,038 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:14:36,038 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 11:38:14,558 [Worker-32: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 11:38:14,558 [Worker-32: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 11:38:14,558 [Worker-32: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 11:38:14,559 [Worker-32: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 11:38:14,559 [Worker-32: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 11:38:14,559 [Worker-32: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 11:38:14,559 [Worker-32: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 11:38:14,559 [Worker-32: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:38:14,566 [Worker-32: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:38:14,566 [Worker-32: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 11:38:15,198 [Worker-32: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 11:38:15,201 [Worker-32: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:38:15,201 [Worker-32: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:38:15,209 [Worker-32: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 11:38:15,250 [Worker-32: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 11:38:15,266 [Worker-32: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:38:15,267 [Worker-32: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:38:15,267 [Worker-32: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 11:45:50,863 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 11:45:50,864 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 11:45:50,864 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 11:45:50,864 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 11:45:50,864 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 11:45:50,864 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 11:45:50,864 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 11:45:50,864 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:45:50,870 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:45:50,870 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 11:45:51,445 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 11:45:51,448 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:45:51,448 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:45:51,457 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 11:45:51,526 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 11:45:51,549 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:45:51,549 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:45:51,549 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 11:46:33,565 [Worker-42: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 11:46:33,566 [Worker-42: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 11:46:33,566 [Worker-42: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 11:46:33,566 [Worker-42: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 11:46:33,566 [Worker-42: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 11:46:33,566 [Worker-42: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 11:46:33,566 [Worker-42: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 11:46:33,566 [Worker-42: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:46:33,572 [Worker-42: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:46:33,573 [Worker-42: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 11:46:34,249 [Worker-42: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 11:46:34,253 [Worker-42: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:46:34,253 [Worker-42: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:46:34,260 [Worker-42: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 11:46:34,311 [Worker-42: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 11:46:34,331 [Worker-42: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:46:34,332 [Worker-42: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:46:34,332 [Worker-42: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 11:47:12,061 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 11:47:12,062 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 11:47:12,062 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 11:47:12,062 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 11:47:12,062 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 11:47:12,062 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 11:47:12,062 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 11:47:12,062 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:47:12,070 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:47:12,070 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 11:47:12,653 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 11:47:12,656 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:47:12,656 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:47:12,662 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 11:47:12,701 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 11:47:12,722 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:47:12,722 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:47:12,723 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 11:48:00,261 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 11:48:00,261 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 11:48:00,261 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 11:48:00,262 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 11:48:00,262 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 11:48:00,262 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 11:48:00,262 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 11:48:00,262 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:48:00,268 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:48:00,268 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 11:48:00,924 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 11:48:00,928 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:48:00,928 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:48:00,938 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 11:48:00,982 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 11:48:01,009 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:48:01,009 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:48:01,009 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 11:48:13,699 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 11:48:13,700 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 11:48:13,700 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 11:48:13,700 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 11:48:13,700 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 11:48:13,700 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 11:48:13,700 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 11:48:13,700 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:48:13,706 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:48:13,706 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 11:48:14,286 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 11:48:14,289 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:48:14,289 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:48:14,299 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 11:48:14,348 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 11:48:14,369 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:48:14,369 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:48:14,370 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 11:48:22,632 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 11:48:22,633 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 11:48:22,633 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 11:48:22,633 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 11:48:22,633 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 11:48:22,633 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 11:48:22,633 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 11:48:22,633 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:48:22,639 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:48:22,639 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 11:48:23,251 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 11:48:23,253 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:48:23,253 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:48:23,260 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 11:48:23,301 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 11:48:23,327 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:48:23,327 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:48:23,328 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 11:48:40,250 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 11:48:40,250 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 11:48:40,250 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 11:48:40,250 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 11:48:40,250 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 11:48:40,250 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 11:48:40,250 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 11:48:40,250 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:48:40,257 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:48:40,257 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 11:48:40,884 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 11:48:40,888 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:48:40,888 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:48:40,895 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 11:48:40,932 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 11:48:40,955 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:48:40,955 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:48:40,955 [Worker-46: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 11:49:05,357 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 11:49:05,358 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 11:49:05,358 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 11:49:05,358 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 11:49:05,358 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 11:49:05,358 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 11:49:05,358 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 11:49:05,358 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:49:05,365 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 11:49:05,365 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 11:49:05,948 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 11:49:05,950 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:49:05,951 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:49:05,956 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 11:49:06,003 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 11:49:06,022 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 11:49:06,022 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 11:49:06,022 [Worker-44: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 12:40:42,977 [Worker-52: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration ASTFrame references closed project spring-petclinic
+org.eclipse.core.runtime.CoreException: Launch configuration ASTFrame references closed project spring-petclinic
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:400)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:426)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:991)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-09-21 12:40:42,980 [Worker-52: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration ASTFrame references closed project spring-petclinic
+org.eclipse.core.runtime.CoreException: Launch configuration ASTFrame references closed project spring-petclinic
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:426)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:991)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-09-21 12:40:42,992 [Worker-52: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration ASTFrame references closed project spring-petclinic
+org.eclipse.core.runtime.CoreException: Launch configuration ASTFrame references closed project spring-petclinic
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2128)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:376)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:426)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:991)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-09-21 12:40:42,993 [Worker-52: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration JDBCApplication references closed project spring-petclinic
+org.eclipse.core.runtime.CoreException: Launch configuration JDBCApplication references closed project spring-petclinic
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:400)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:426)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:991)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-09-21 12:40:42,994 [Worker-52: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration JDBCApplication references closed project spring-petclinic
+org.eclipse.core.runtime.CoreException: Launch configuration JDBCApplication references closed project spring-petclinic
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:426)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:991)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-09-21 12:40:43,003 [Worker-52: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration JDBCApplication references closed project spring-petclinic
+org.eclipse.core.runtime.CoreException: Launch configuration JDBCApplication references closed project spring-petclinic
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:59)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:46)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2128)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:376)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:426)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:991)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-09-21 16:28:57,952 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-21 16:31:25,088 [Worker-23: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.samples:spring-petclinic:2.5.0-SNAPSHOT @ C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\pom.xml.
+2021-09-21 16:31:25,088 [Worker-20: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.samples:spring-petclinic:2.5.0-SNAPSHOT @ C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\pom.xml.
+2021-09-21 16:31:26,993 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - dotGitDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\.git
+2021-09-21 16:31:27,324 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.name with value JGG52TIC
+2021-09-21 16:31:27,326 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.email with value jgg52tic@gmail.com
+2021-09-21 16:31:27,438 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.branch with value main
+2021-09-21 16:31:27,441 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - --always = true
+2021-09-21 16:31:27,441 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - --dirty = -dirty
+2021-09-21 16:31:27,441 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - --abbrev = 7
+2021-09-21 16:31:27,454 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Tag refs [[Ref[refs/tags/1.5.x=c36452a2c34443ae26b4ecbba4f149906af14717(-1)]]]
+2021-09-21 16:31:27,486 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created map: [{}]
+2021-09-21 16:31:27,487 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - evalCommit is [25ba1621a9d7440df013f7737ce070f44014ecb1]
+2021-09-21 16:31:27,665 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe with value 25ba162-dirty
+2021-09-21 16:31:27,665 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe-short with value 25ba162-dirty
+2021-09-21 16:31:27,666 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id with value 25ba1621a9d7440df013f7737ce070f44014ecb1
+2021-09-21 16:31:27,667 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.abbrev with value 25ba162
+2021-09-21 16:31:27,723 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.dirty with value true
+2021-09-21 16:31:27,726 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.name with value Dave Syer
+2021-09-21 16:31:27,727 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.email with value dsyer@vmware.com
+2021-09-21 16:31:27,727 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.full with value Add delimiter to list of pets
+2021-09-21 16:31:27,728 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.short with value Add delimiter to list of pets
+2021-09-21 16:31:27,729 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.time with value 2021-09-14T18:33:24+0200
+2021-09-21 16:31:27,729 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.author.time with value 2021-09-14T18:33:24+0200
+2021-09-21 16:31:27,730 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.committer.time with value 2021-09-14T18:33:24+0200
+2021-09-21 16:31:27,731 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.remote.origin.url with value https://github.com/JGG52TIC/spring-petclinic.git
+2021-09-21 16:31:27,747 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tags with value 
+2021-09-21 16:31:27,757 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - evalCommit is [25ba1621a9d7440df013f7737ce070f44014ecb1]
+2021-09-21 16:31:27,760 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Tag refs [[Ref[refs/tags/1.5.x=c36452a2c34443ae26b4ecbba4f149906af14717(-1)]]]
+2021-09-21 16:31:27,761 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created map: [{}]
+2021-09-21 16:31:27,773 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.name with value 
+2021-09-21 16:31:27,781 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - evalCommit is [25ba1621a9d7440df013f7737ce070f44014ecb1]
+2021-09-21 16:31:27,782 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Tag refs [[Ref[refs/tags/1.5.x=c36452a2c34443ae26b4ecbba4f149906af14717(-1)]]]
+2021-09-21 16:31:27,784 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created map: [{}]
+2021-09-21 16:31:27,792 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.commit.count with value 
+2021-09-21 16:31:27,800 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.total.commit.count with value 743
+2021-09-21 16:31:28,649 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.ahead with value 0
+2021-09-21 16:31:28,650 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.behind with value 0
+2021-09-21 16:31:28,657 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.time with value 2021-09-21T16:31:28+0200
+2021-09-21 16:31:28,657 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.version with value 2.5.0-SNAPSHOT
+2021-09-21 16:31:28,662 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.host with value SG
+2021-09-21 16:31:28,663 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.tags in results
+2021-09-21 16:31:28,664 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.version in results
+2021-09-21 16:31:28,664 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.branch in results
+2021-09-21 16:31:28,664 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.host in results
+2021-09-21 16:31:28,664 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.id in results
+2021-09-21 16:31:28,664 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.user.email in results
+2021-09-21 16:31:28,665 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.local.branch.behind in results
+2021-09-21 16:31:28,665 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.author.time in results
+2021-09-21 16:31:28,665 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.user.name in results
+2021-09-21 16:31:28,665 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.dirty in results
+2021-09-21 16:31:28,665 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.closest.tag.commit.count in results
+2021-09-21 16:31:28,665 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.user.name in results
+2021-09-21 16:31:28,665 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.id.abbrev in results
+2021-09-21 16:31:28,665 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.id.describe-short in results
+2021-09-21 16:31:28,665 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.total.commit.count in results
+2021-09-21 16:31:28,665 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.id.describe in results
+2021-09-21 16:31:28,665 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.user.email in results
+2021-09-21 16:31:28,665 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.message.short in results
+2021-09-21 16:31:28,665 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.committer.time in results
+2021-09-21 16:31:28,665 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.closest.tag.name in results
+2021-09-21 16:31:28,665 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.local.branch.ahead in results
+2021-09-21 16:31:28,665 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.time in results
+2021-09-21 16:31:28,665 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.build.time in results
+2021-09-21 16:31:28,666 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.commit.message.full in results
+2021-09-21 16:31:28,666 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property git.remote.origin.url in results
+2021-09-21 16:31:28,668 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Reading existing properties file [C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\git.properties] (for module petclinic)...
+2021-09-21 16:31:28,674 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Writing properties file to [C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\git.properties] (for module petclinic)...
+2021-09-21 16:31:29,231 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 16:31:29,231 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 16:31:29,231 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 16:31:29,231 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 16:31:29,231 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 16:31:29,231 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 16:31:29,231 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 16:31:29,232 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 16:31:29,243 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 16:31:29,244 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 16:31:30,120 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The following groups will be processed: [petclinic]
+2021-09-21 16:31:30,121 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - folder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 16:31:30,121 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - processing group: petclinic.css
+2021-09-21 16:31:33,514 [Worker-23: Building] WARN  r.i.w.e.p.css.Less4jProcessor - Less warnings are:
+2021-09-21 16:31:33,517 [Worker-23: Building] WARN  r.i.w.e.p.css.Less4jProcessor - 10:1 Cannot link source map. Css result location is not know and could not be deduced from input less source..
+2021-09-21 16:31:33,531 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - file size: petclinic.css -> 152399 bytes
+2021-09-21 16:31:33,532 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css\petclinic.css (152399 bytes)
+2021-09-21 16:31:33,532 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - folder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 16:31:33,533 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - processing group: petclinic.js
+2021-09-21 16:31:33,712 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 16:31:33,713 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 16:31:33,724 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 16:31:33,796 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 16:31:33,830 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 16:31:33,830 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 16:31:33,830 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 16:31:35,649 [Worker-22: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.samples:spring-petclinic:2.5.0-SNAPSHOT @ C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\pom.xml.
+2021-09-21 16:31:38,539 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 16:31:38,540 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 16:31:38,540 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 16:31:38,541 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 16:31:38,541 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 16:31:38,541 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 16:31:38,541 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 16:31:38,541 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 16:31:38,555 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 16:31:38,557 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 16:31:39,933 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 16:31:40,160 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 16:31:40,160 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 16:31:40,169 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-21 16:31:40,170 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-21 16:31:40,175 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 16:31:40,175 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 16:31:40,176 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 18:47:16,677 [Worker-46: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 18:47:16,680 [Worker-46: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 18:47:16,680 [Worker-46: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 18:47:16,680 [Worker-46: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 18:47:16,680 [Worker-46: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 18:47:16,681 [Worker-46: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 18:47:16,681 [Worker-46: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 18:47:16,681 [Worker-46: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 18:47:16,687 [Worker-46: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 18:47:16,688 [Worker-46: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 18:47:17,220 [Worker-46: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 18:47:17,225 [Worker-46: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 18:47:17,225 [Worker-46: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 18:47:17,236 [Worker-46: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 18:47:17,340 [Worker-46: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 18:47:17,360 [Worker-46: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 18:47:17,360 [Worker-46: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 18:47:17,361 [Worker-46: Launching ASTFrame] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 19:00:04,967 [Worker-55: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 19:00:04,968 [Worker-55: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 19:00:04,968 [Worker-55: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 19:00:04,968 [Worker-55: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 19:00:04,968 [Worker-55: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 19:00:04,968 [Worker-55: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 19:00:04,968 [Worker-55: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 19:00:04,968 [Worker-55: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 19:00:04,974 [Worker-55: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 19:00:04,975 [Worker-55: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 19:00:05,573 [Worker-55: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 19:00:05,577 [Worker-55: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 19:00:05,577 [Worker-55: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 19:00:05,585 [Worker-55: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 19:00:05,647 [Worker-55: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 19:00:05,662 [Worker-55: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 19:00:05,662 [Worker-55: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 19:00:05,662 [Worker-55: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 19:15:15,766 [Worker-60: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 19:15:15,767 [Worker-60: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 19:15:15,767 [Worker-60: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 19:15:15,767 [Worker-60: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 19:15:15,767 [Worker-60: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 19:15:15,767 [Worker-60: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 19:15:15,768 [Worker-60: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 19:15:15,768 [Worker-60: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 19:15:15,775 [Worker-60: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 19:15:15,775 [Worker-60: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 19:15:16,271 [Worker-60: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 19:15:16,276 [Worker-60: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 19:15:16,276 [Worker-60: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 19:15:16,284 [Worker-60: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 19:15:16,361 [Worker-60: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 19:15:16,376 [Worker-60: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 19:15:16,376 [Worker-60: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 19:15:16,376 [Worker-60: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 19:22:17,834 [Worker-62: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 19:22:17,834 [Worker-62: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 19:22:17,834 [Worker-62: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 19:22:17,834 [Worker-62: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 19:22:17,834 [Worker-62: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 19:22:17,834 [Worker-62: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 19:22:17,835 [Worker-62: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 19:22:17,835 [Worker-62: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 19:22:17,842 [Worker-62: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 19:22:17,842 [Worker-62: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 19:22:18,388 [Worker-62: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 19:22:18,391 [Worker-62: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 19:22:18,391 [Worker-62: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 19:22:18,396 [Worker-62: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 19:22:18,467 [Worker-62: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 19:22:18,481 [Worker-62: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 19:22:18,481 [Worker-62: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 19:22:18,481 [Worker-62: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 19:23:09,640 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 19:23:09,640 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 19:23:09,640 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 19:23:09,641 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 19:23:09,641 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 19:23:09,641 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 19:23:09,641 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 19:23:09,641 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 19:23:09,646 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 19:23:09,646 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 19:23:10,069 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 19:23:10,071 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 19:23:10,071 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 19:23:10,076 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 19:23:10,108 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 19:23:10,127 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 19:23:10,128 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 19:23:10,128 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 19:24:41,177 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 19:24:41,177 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 19:24:41,177 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 19:24:41,177 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 19:24:41,177 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 19:24:41,177 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 19:24:41,177 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 19:24:41,177 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 19:24:41,184 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 19:24:41,184 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 19:24:41,567 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 19:24:41,569 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 19:24:41,569 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 19:24:41,574 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 19:24:41,586 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 19:24:41,598 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 19:24:41,598 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 19:24:41,598 [Worker-64: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 19:26:53,952 [Worker-68: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 19:26:53,953 [Worker-68: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 19:26:53,953 [Worker-68: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 19:26:53,953 [Worker-68: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 19:26:53,953 [Worker-68: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 19:26:53,953 [Worker-68: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 19:26:53,953 [Worker-68: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 19:26:53,953 [Worker-68: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 19:26:53,957 [Worker-68: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 19:26:53,957 [Worker-68: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 19:26:54,469 [Worker-68: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 19:26:54,472 [Worker-68: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 19:26:54,472 [Worker-68: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 19:26:54,478 [Worker-68: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 19:26:54,512 [Worker-68: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 19:26:54,529 [Worker-68: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 19:26:54,529 [Worker-68: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 19:26:54,529 [Worker-68: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
+2021-09-21 19:27:09,952 [Worker-66: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic/src/main/less
+2021-09-21 19:27:09,953 [Worker-66: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Executing the mojo: 
+2021-09-21 19:27:09,953 [Worker-66: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Wro4j Model path: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\main\wro\wro.xml
+2021-09-21 19:27:09,953 [Worker-66: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - targetGroups: null
+2021-09-21 19:27:09,953 [Worker-66: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - minimize: true
+2021-09-21 19:27:09,953 [Worker-66: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - ignoreMissingResources: null
+2021-09-21 19:27:09,953 [Worker-66: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - parallelProcessing: false
+2021-09-21 19:27:09,953 [Worker-66: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - buildDirectory: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 19:27:09,959 [Worker-66: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - destinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target
+2021-09-21 19:27:09,959 [Worker-66: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - cssDestinationFolder: C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\target\classes\static\resources\css
+2021-09-21 19:27:10,363 [Worker-66: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Nothing to process (nothing configured or nothing changed since last build).
+2021-09-21 19:27:10,365 [Worker-66: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 19:27:10,365 [Worker-66: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 19:27:10,370 [Worker-66: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-09-21 19:27:10,400 [Worker-66: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 39 resources
+2021-09-21 19:27:10,418 [Worker-66: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-21 19:27:10,419 [Worker-66: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-21 19:27:10,419 [Worker-66: Launching JDBCApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\seaxs\Desktop\EVERIS\Ejemplos\PetClinic\spring-petclinic\src\test\resources
